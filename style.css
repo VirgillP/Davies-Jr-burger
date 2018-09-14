@@ -63,9 +63,9 @@ nav a {
 	background-position: center;
 	background-size: cover;
 	height: 320px;
-	padding-top: 18px;
-	margin-top: -24px;
-	padding-bottom: 73px;
+	padding-top: 16px;
+	margin-top: -20px;
+	padding-bottom: 88px;
 }
 
 h1 {
@@ -90,7 +90,6 @@ h1 {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 0;
 }
 
 .body p {
@@ -155,8 +154,11 @@ ul.nutrition li {
 }
 .davies-home-button {
 	margin-top: -26px;
-	width: 166px;
-	padding-left: 0px;
+	width: 142px;
+	padding-left: 17px;
+	padding-top: 0px;
+	padding-bottom: 6px;
+	height: 53px;
 }
 .menu-bar-list  {
 	margin-right: 22px;
@@ -178,4 +180,11 @@ ul.nutrition li {
 	margin-bottom: 35px;
 	border: 1px solid blue;
 	margin-left: 1px;
+	background-color: rgba(235,248,255,1.00);
+}
+
+.menu-bar .menu-bar-list .float-left.menu-bar-list:hover{
+	background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+  color: #FFF;
 }
