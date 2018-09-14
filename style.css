@@ -18,10 +18,10 @@ nav {
 }
 
 nav img {
-  display: block;
-  width: 180px;
-  margin: 0 auto;
-  
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+	float: left;  
 }
 
 nav span {
