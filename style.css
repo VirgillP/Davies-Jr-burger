@@ -6,6 +6,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
 
 a {
   text-decoration: none;
@@ -129,4 +135,16 @@ ul.nutrition li {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+.menu-bar {
+	margin-top: 23px;
+	padding-top: 0px;
+}
+.davies-home-button {
+	margin-top: -27px;
+	width: 155px;
+	padding-left: 0px;
+}
+.menu-bar .menu-bar-list {
+	margin-right: 20px;
 }
