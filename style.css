@@ -182,12 +182,11 @@ ul.nutrition li {
 	padding-top: 19px;
 }
 .menu-bar .members .jr-signup-login {
-	margin-top: -3px;
-	display: block;
-	margin-right: -44px;
+	margin-top: -17px;
+	display: inline-block;
 }
 .jr-signup-login a li {
-	margin-left: 28px;
+	margin-left: 19px;
 }
 .jr-signup-login a li {
 }
