@@ -1,3 +1,5 @@
+html {
+}
 /* Universal Styles */
 
 body {
@@ -15,7 +17,6 @@ body {
 
 a {
 	text-decoration: none;
-	padding-top: 2px;
 }
 
 /* Navigation */
@@ -29,21 +30,6 @@ nav img {
 	width: 180px;
 	margin: 0 auto;
 	float: left;  
-}
-
-nav span {
-	display: block;
-	font-size: 16px;
-	font-weight: 100;
-	letter-spacing: 2px;
-	margin-top: 15px;
-	margin-right: 15px;
-	margin-left: 15px;
-	margin-bottom: 15px;
-}
-
-nav a {
-  color: #666666;
 }
 
 /* Content Container */
@@ -84,20 +70,12 @@ h1 {
 	font-style: normal;
 }
 
-/* Content Body */
-
-.content .body {
-	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 .body p {
-  color: #333333;
-  font-weight: 100;
-  line-height: 34px;
-  width: 90%;
-  margin-top: 18px;
+	color: #333333;
+	font-weight: 100;
+	line-height: 34px;
+	width: 90%;
+	margin-top: 18px;
 }
 
 /* Content Button */
@@ -153,9 +131,8 @@ ul.nutrition li {
 	margin-bottom: 29px;
 }
 .davies-home-button {
-	margin-top: -26px;
+	margin-top: -3px;
 	width: 142px;
-	padding-left: 17px;
 	padding-top: 0px;
 	padding-bottom: 6px;
 	height: 53px;
@@ -163,7 +140,7 @@ ul.nutrition li {
 .menu-bar-list  {
 	margin-right: 22px;
 	margin-left: 28px;
-	margin-top: 4px;
+	margin-top: -20px;
 	padding-top: 0px;
 }
 .menu-bar .menu-bar-list .float-left.menu-bar-list {
@@ -172,19 +149,45 @@ ul.nutrition li {
 	display: block;
 	font-weight: 700;
 	width: 90px;
-	padding-top: 11px;
-	padding-right: 11px;
-	padding-left: 11px;
-	padding-bottom: 11px;
-	margin-top: -11px;
-	margin-bottom: 35px;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	margin-top: 13px;
+	margin-bottom: 8px;
 	border: 1px solid blue;
-	margin-left: 1px;
+	margin-left: 2px;
 	background-color: rgba(235,248,255,1.00);
+	margin-right: 7px;
 }
 
 .menu-bar .menu-bar-list .float-left.menu-bar-list:hover{
 	background-color: #05A8AA;
-  border: 1px solid #05A8AA;
-  color: #FFF;
+	border: 1px solid #05A8AA;
+	color: #FFF;
+}
+.menu-bar .promo-banner {
+	padding-top: 13px;
+	margin-right: 123px;
+}
+.menu-bar .members {
+	float: right;
+	margin-right: 55px;
+	margin-top: 25px;
+	padding-right: 23px;
+}
+
+
+.content .header {
+	padding-top: 19px;
+}
+.menu-bar .members .jr-signup-login {
+	margin-top: -3px;
+	display: block;
+	margin-right: -44px;
+}
+.jr-signup-login a li {
+	margin-left: 28px;
+}
+.jr-signup-login a li {
 }
