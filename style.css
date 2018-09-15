@@ -99,6 +99,11 @@ h1 {
   margin: 40px auto;
   border: 1px solid blue;
 }
+.social-media {
+	display: inline-block;
+	width: 89px;
+	padding-top: 26px;
+}
 
 .button:hover {
   background-color: #05A8AA;
@@ -109,8 +114,9 @@ h1 {
 /* Content Nutrition */
 
 ul.nutrition {
-  padding: 20px;
-  
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 
 ul.nutrition li {
