@@ -73,6 +73,11 @@ h1 {
 .content .body h2 {
 	font-size: 45px;
 }
+.content .body table {
+	border: 1px solid rgba(25,25,25,1.00);
+	margin-left: 587px;
+	margin-top: 26px;
+}
 
 .body p {
 	color: #333333;
